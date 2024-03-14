@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 1300px;
+    font-family: "Manrope", sans-serif;
+}
+.header {
+    width: 1400px;
+    height: 100px;
+    display: inline-block;
+}
+.header_img {
+    width: 1200px;
+    display: block;
+    margin-left: 170px;
+    padding-top: 30px;
+}
+.header_nav {
+    width: 500;
+    height: 30px;
+    margin-left: 475px;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 18px;
+}
+.header_nav a {
+    padding: 0 35px;
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+.header_nav_active:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
+
+.content_h1{
+    width: 1000px;
+    height: 120px;
+    padding-bottom: 60px;
+    line-height: 60px;
+    margin-left: 170px;
+    font-size: 60px;
+    color: rgba(18, 18, 18, 1);
+}
+.content_img {
+    margin-left: 170px;
+    position:relative
+}
+.content_p {
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+.content_tow {
+    width: 1051px;
+    height: 518px;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.content_tow_link_one {
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+.content_tow_p {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.content_tow_link_tow {
+    width: 255px;
+    height: 67px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: red;
+}
+
+.content_tow_link_tow:hover {
+    color: white;
+    background-color: red;
+}
+
+.content_project {
+    margin-left: 170px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.content_project_one {
+    width: 100%;
+    height: 548px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+}
+.content_project_titl {
+    padding-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgba(18, 18, 18, 1);
+}
+.content_project_link {
+    font-size: 20px;
+    color: rgba(173, 24, 24, 1);
+    text-decoration: none;
+}
+.content_button{
+    padding-bottom: 100px;
+}
+.content_button button{
+    width: 1150px;
+    height: 100px;
+    margin-left: 170px;
+    color: red;
+    border: 1px solid red;
+    background-color: #fff;
+    font-size: 30px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: red;
+}
+
+.content_project_four{
+    width: 1300px;
+    height: 1700px;
+    padding-left: 170px;
+    padding-top: 100px;
+    background-color: black;
+}
+.project_four_titl {
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+.project_four_text {
+    padding-bottom: 40px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #fff;
+}
+
+.section {
+    width: 1470px;
+    height: 700px;
+    background-image: url('/img/img_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    padding-top: 560px;
+    padding-left: 200px;
+    width: 500px;
+    font-size: 30px;
+    color: white;
+}
+
+.contacts {
+    height: 70px;
+    font-size: 18px;
+    margin-left: 170px;
+    margin-top: 70px;
+    position: relative;
+}
+.contacts::after {
+    top: -8px;
+    left: 90px;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('/img/contacts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.contacts_nav {
+    width: 700px;
+    height: 300px;
+}
+.tel {
+    margin-left: 170px;
+    font-size: 60px;
+    color: dimgrey;
+}
+.mailto  {
+    margin-left: 170px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #000;
+}
+
+.footer {
+    width: 1470px;
+    height: 220px;
+    text-align: center;
+    background-color: #000;
+}
+.footer_nav {
+    padding-top: 50px;
+    display: inline-block;
+}
+.footer_nav  a{
+    padding-left: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.footer_nav_active:hover {
+    color: dimgray;
+}
+.footer_text {
+    padding-top: 90px;
+    color: dimgray;
+}
